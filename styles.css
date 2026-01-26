@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+p#Listing {
+    text-align: left;}
+
+p#Price {
+    text-align: right;
+    top: -80px;
+}
+
+p {
+    position: relative; 
+    top: -50px;
+    left: 350px;
+}
+
+#Opening {
+    position: center;
+    top: -25px;
+}
