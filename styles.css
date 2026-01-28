@@ -1,16 +1,78 @@
+* {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    background-color: rgb(2, 2, 65);
+}
+
 h1 {
     text-align: center;
+    color: rgb(177, 0, 231)
 }
 
-listing {
-    text-align: left;
-}
-
-price {
-    text-align: right;
-}
-
-description {
-    font-style: italic;
+#opening {
     text-align: center;
+    color:rgb(5, 119, 250)
+}
+
+#type {
+    text-align: center;
+    color:rgb(13, 238, 6)
+}
+
+#listing {
+    margin-top: 80px;
+    text-align: left;
+    color:rgb(250, 246, 7)
+}
+
+#price {
+    text-align: left;
+    color: orange
+}
+
+#description{
+    font-style: italic;
+    text-align: left;
+    color:rgb(252, 0, 138)
+}
+
+#club {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  width: 400;
+}
+
+#melt {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  width: 200;
+}
+
+#firewall {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  width: 300;
+}
+
+#caprese {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  width: 200;
+}
+
+#chicken {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  width: 300;
 }

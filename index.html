@@ -7,8 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="tab">
+        <button class="tablinks" onclick="openMenu(event, 'Sandwiches')" id="defaultOpen">Sandwiches</button>
+        <button class="tablinks" onclick="openMenu(event, 'Soups')">Soups</button>
+        <button class="tablinks" onclick="openMenu(event, 'Coffee')">Coffee</button>
+        <button class="tablinks" onclick="openMenu(event, 'Sweets')">Sweets</button>
+    </div>
+    <div id="Sandwiches" class="tabcontent">
     <h1>Nexus Cat Cafe</h1>
-    <p id ="Opening">Welcome to the Nexus Cat Cafe, where you can enjoy a cozy 
+    <p id ="opening">Welcome to the Nexus Cat Cafe, where you can enjoy a cozy 
         <br>
         cup of coffee while spending time with our adorable feline 
         <br>
@@ -26,13 +33,71 @@
 
 
     </p>
-    <h2 id ="listing">Grilled Cheese and Tomato Soup</h2>
-    <h3 id ="price">$8.00</h3>
-    <p id="description">The cheesy goodness along with a cozy tomato soup to pat you on the back and tell you
+    <h2 id="type">Sandwiches</h2>
+    <h2 id ="listing">The Full Stack Club</h2>
+    <p id="description"><b>Triple-decker with turkey, bacon, avacado,
         <br>
-        "You got this, coder!"
+        and "Logic" mayo. It's got everything you
+        <br>
+        need to build a solid afternoon.</b>
+    </p>
+    <h3 id ="price">$12.50</h3>
+
+    <img id="club" width="200" src="https://tse2.mm.bing.net/th/id/OIP.rsrPJ2RkZYB_Y1QNvU3BdwHaE7?pid=Api&P=0&h=180">
+        
+
+    <h2 id="listing">The Boolean Melt</h2>
+    <p id="description">A sophisticated grilled cheese with aged cheddar and brie.
+        <br>
+        you either love it or you don't (True or False).
+    </p>
+    <h3 id="price">$10.75</h3>
+
+    <img id="melt" width="150" src="https://www.recipetineats.com/wp-content/uploads/2023/07/Grilled-Cheese-sandwich-photo-main.jpg?resize=206">
+
+    <h2 id="listing">The Firewall Sub</h2>
+    <p id="description">Spicy seasoned roast beef, pepper jack, and jalapenos.
+    <br>
+    Designed to keep the cold out and the heat
+    <br>
+    securely inside.
+    </p>
+    <h3 id="price">$11.50</h3>
+    <img id="firewall" width="200" src="https://img.freepik.com/premium-photo/closeup-spicy-roast-beef-sandwich-with-jalapeno-peppers-pepper-jack-cheese-chipotle-mayo_928211-4750.jpg">
+
+
+    <h2 id="listing">The Containerized Caprese</h2>
+    <p id="description">Fresh mozzerella, sliced tomatoes and basil 
+        <br>
+        leaves tightly packed into a toasted ciabatta.
+        <br>
+        It's a perfectly isolated environment of flavor 
+        <br>
+        that won't leak balsamic glaze onto your workspace.
+
     </p>
 
-    <h2></h2>
-</body>
+    <h3 id="price">$11.25</h3>
+    <img id="caprese" width="200" src="https://www.thekitcheneer.com/wp-content/uploads/2023/04/Toasted-Caprese-Sandwich-3.jpg">
+
+    <h2 id="listing">The Legacy Wrap</h2>
+    <p id="description">A classic chicken salad recipe from "the
+        <br>
+        original developer" (the owner's grandma).
+        <br>
+        It's an older version of the menu, but it's 
+        <br>
+        stable, reliable, and nobody is allowed to 
+        <br>
+        change the source code!
+    </p>
+    <h3 id="price">$10.50</h3>
+    <img id="chicken" width="175" src="https://spicysouthernkitchen.com/wp-content/uploads/chicken-salad-wraps-6.jpg" alt="">
+    </div>
+    <div id="Soups" class="tabcontent">
+        <h2 id="type">Soups</h2>
+        <h2 id="listing"></h2>
+    </div>
+
+    </body>
 </html>
