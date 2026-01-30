@@ -148,3 +148,27 @@ h1 {
   margin-top: -150px;
   width: 300;
 }
+
+#scones {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  width: 300;
+}
+
+#dark {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  width: 300;
+}
+
+#cold {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+  width: 300;
+}
